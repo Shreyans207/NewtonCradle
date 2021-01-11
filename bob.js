@@ -6,7 +6,7 @@ class Bob {
             density : 1.2
   
         }
-        this.body = Bodies.circle(x,y,r,options);
+        this.body = Bodies.circle(x,y,r/2,options);
         this.r = r ;
   
         World.add(world,this.body);
